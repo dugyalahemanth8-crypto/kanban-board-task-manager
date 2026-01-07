@@ -1,30 +1,36 @@
-# Kanban Board – Task Manager
+# 📋 Kanban Board – Task Manager
 
-A simple and responsive Kanban Board web application built using **HTML, CSS, and Vanilla JavaScript** to manage tasks efficiently using a drag-and-drop interface.
+A sleek, responsive Kanban Board web application built with **Vanilla JavaScript, HTML5, and CSS3**. This project features a modern dark UI inspired by GitHub and provides a seamless drag-and-drop experience for task management.
 
-This project helps users organize tasks into **To Do**, **In Progress**, and **Done** columns with a clean UI inspired by GitHub’s dark theme.
+
 
 ---
 
 ## 🚀 Features
 
-- Add tasks with title and description
-- Drag & drop tasks between columns
-- Reorder tasks within a column
-- Delete tasks with smooth animation
-- Real-time task count for each column
-- Responsive design (works on mobile, tablet, and desktop)
-- Clean and modern dark UI
+* **Task Management**: Easily add tasks with titles and detailed descriptions.
+* **Drag & Drop**: Intuitive HTML5 Drag and Drop API integration to move tasks between columns.
+* **Dynamic UI**: 
+    * Real-time task counters for each column.
+    * Smooth delete animations.
+    * Visual feedback during dragging (hover effects and transparency).
+* **Fully Responsive**: Optimized for Desktop, Tablet, and Mobile devices using CSS Media Queries.
+* **Modern Dark Theme**: A clean, "GitHub-style" aesthetic for reduced eye strain.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **HTML5** – Structure of the application  
-- **CSS3** – Styling, layout, and responsiveness  
-- **JavaScript (Vanilla JS)** – Application logic and interactivity  
+* **HTML5** – Semantic structure and layout.
+* **CSS3** – Custom properties, Flexbox, and responsive design.
+* **JavaScript (ES6)** – DOM manipulation, event handling, and drag-and-drop logic.
 
 ---
 
 ## 📂 Project Structure
 
+```text
+├── index.html   # Main application structure
+├── styles.css   # Styling and responsiveness logic
+├── script.js   # Drag-and-drop & Task logic
+└── README.md    # Project documentation
