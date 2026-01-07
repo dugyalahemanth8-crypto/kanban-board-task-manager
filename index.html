@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Kanban Board - Task Manager</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <div class="top-nav">
+        <div class="app-title">Kanban<span>Board</span></div>
+        <button class="add-button" onclick="openModal()">+ Add New Task</button>
+    </div>
+
+    <div class="board-container">
+        
+        <div class="column" id="todo-column">
+            <div class="column-header">
+                <div class="column-title-area">
+                    <span class="status-dot blue"></span>
+                    <h2 class="column-title">To Do</h2>
+                </div>
+                <span class="task-count" id="todo-count">0</span>
+            </div>
+            <div class="task-list" id="todo-list"></div>
+        </div>
+
+        <div class="column" id="progress-column">
+            <div class="column-header">
+                <div class="column-title-area">
+                    <span class="status-dot orange"></span>
+                    <h2 class="column-title">In Progress</h2>
+                </div>
+                <span class="task-count" id="progress-count">0</span>
+            </div>
+            <div class="task-list" id="progress-list"></div>
+        </div>
+
+        <div class="column" id="done-column">
+            <div class="column-header">
+                <div class="column-title-area">
+                    <span class="status-dot green"></span>
+                    <h2 class="column-title">Done</h2>
+                </div>
+                <span class="task-count" id="done-count">0</span>
+            </div>
+            <div class="task-list" id="done-list"></div>
+        </div>
+
+    </div>
+
+    <div class="modal" id="task-modal">
+        <div class="modal-background" onclick="closeModal()"></div>
+        <div class="modal-box">
+            <h3>Create New Task</h3>
+            <input type="text" class="input-field" id="title-input" placeholder="Task Title">
+            <textarea class="input-field" id="description-input" placeholder="Task Description"></textarea>
+            <button class="save-button" onclick="addNewTask()">Add Task</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
