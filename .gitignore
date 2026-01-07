@@ -1,0 +1,9 @@
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Folders to ignore (if you ever use them later)
+node_modules/
+dist/
+.env
