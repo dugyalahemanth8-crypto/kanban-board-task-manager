@@ -2,7 +2,7 @@
 
 A sleek, responsive Kanban Board web application built with **Vanilla JavaScript, HTML5, and CSS3**. This project features a modern dark UI inspired by GitHub and provides a seamless drag-and-drop experience for task management.
 
-
+**[🚀 Click Here to View the Live Demo](https://dugyalahemanth8-crypto.github.io/kanban-board-task-manager/)**
 
 ---
 
@@ -30,7 +30,11 @@ A sleek, responsive Kanban Board web application built with **Vanilla JavaScript
 ## 📂 Project Structure
 
 ```text
-├── index.html   # Main application structure
-├── styles.css   # Styling and responsiveness logic
-├── script.js   # Drag-and-drop & Task logic
-└── README.md    # Project documentation
+├── index.html     # Main application structure
+├── styles.css     # Styling and responsiveness logic
+├── script.js      # Drag-and-drop & Task logic
+
+
+├── .gitignore     # Files ignored by Git (system cleanup)
+├── LICENSE        # MIT License (legal documentation)
+└── README.md      # Project documentation
